@@ -1,9 +1,46 @@
 .nav {
-  background-color: #333;
+  background-color: #ebebeb;
   padding: 10px;
   position: fixed;
   display: flex;
   justify-content: center;
-  gap: 30px;
+  justify-content: space-between;
   width: 100%;
+}
+
+.nav-button {
+  border-color: transparent;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+.buttons-on-the-right {
+  display: flex;
+  gap: 10px;
+}
+.intro-section {
+  background-image: url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2t5c2NyYXBlcnxlbnwwfHwwfHx8MA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex; /*  ask why thiis solved the issue of the text not being in the middle of the image */
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.intro-section h1 {
+  font-size: 50px;
+}
+.intro-section b {
+  background-color: #2f2f36c0;
+  padding: 10px;
+}
+.projects-section {
+}
+.projects-section p {
 }
